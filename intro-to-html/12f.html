@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>12f practice</title>
+      <style>
+         body{
+            font-family: Arial;
+         }
+
+         .box{
+            display:flex;
+            background-color: rgb(150, 66, 206);
+            justify-content: space-between;
+            padding: 8px 8px;
+            align-items: center;
+            width: 1400px;
+            margin:auto;
+         }
+
+         .home{
+            display: inline;
+            color: white;
+            margin-left: 8px;
+            margin-right: 110px;
+         }
+
+         .search-bar{
+            height: 30px;
+            flex: 1;
+            border-radius: 15px;
+            border: none;
+            padding-left: 20px;
+         }
+
+         .download-button{
+            margin-left: 110px;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="box">
+         <p class="home">Home</p>
+         <input class="search-bar" type="text" placeholder="Search">
+         <button class="download-button">Download</button>
+      </div>
+   </body>
+</html>

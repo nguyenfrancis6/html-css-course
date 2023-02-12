@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>14e</title>
+   <style>
+      body {
+         height: 3000px;
+         font-family: Arial;
+      }
+
+      .header {
+         position: fixed;
+         top: 0px;
+         right: 0;
+         left: 0;
+         background-color: pink;
+         height: 50px;
+         display: flex;
+         align-items: center;
+      }
+
+      .profile-picture {
+         height: 30px;
+         border-radius: 15px;
+         margin-left: 300px;
+      }
+
+      .profile-name{
+         font-weight: bold;
+         margin-left: 10px;
+         margin-right: 800px;
+      }
+
+      .friend-request{
+         margin-right: 7px;
+      }
+
+      .friend-button{
+         background-color: rgb(44, 109, 230);
+         color: white;
+         border: none;
+         padding: 10px 12px;
+         border-radius: 8px;
+         cursor: pointer;
+         width: 90px;
+      }
+
+      .message-button{
+         background-color: rgb(214, 210, 210);
+         color: black;
+         font-weight: bold;
+         border: none;
+         padding: 10px 12px;
+         border-radius: 8px;
+         width: 90px;
+         cursor: pointer;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="header">
+      <div class="profile-picture-container">
+         <img src="cat.jpg" class="profile-picture">
+      </div>
+      <div class="profile-name">
+         Oliver Cat
+      </div>
+      <div class="friend-request">
+         <button class="friend-button">Add Friend</button>
+      </div>
+      <div class="message">
+         <button class="message-button">Message</button>
+      </div>
+   </div>
+</body>
+
+</html>
